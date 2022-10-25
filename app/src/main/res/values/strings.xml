@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">cobautsppb</string>
+    <string name="a11_2021_13319">A11.2021.13319</string>
+    <string name="hobby_badminton">Hobby : Badminton</string>
+    <string name="tentang_saya">Tentang saya</string>
+    <string name="desc">Halo, nama saya Junianto Endra Kartika dengan NIM A11.2021.13319. Saya adalah mahasiswa Universitas Dian Nuswantoro Semester 3, Fakultas Ilmu Komputer. Alasan saya masuk FIK karena saya menyukai dunia komputer seperti teknologi device, dan bahasa pemprogramman.</string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="email">Email</string>
+    <string name="pesan_makanan">Pesan Makanan</string>
+    <string name="list_view">List View</string>
+    <string name="grid_view">Grid View</string>
+    <string name="menu_image">Menu Image</string>
+    <string name="nama_menu_makanan">Nama Menu Makanan</string>
+    <string name="harga_makanan">Harga Makanan</string>
+    <string name="satuan_makanan">Satuan Makanan</string>
+    <string name="jumlah_pesanan">Jumlah Pesanan</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+</resources>

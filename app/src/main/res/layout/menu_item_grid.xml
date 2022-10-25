@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    cardview:cardCornerRadius="4dp"
+    android:focusable="true"
+    android:id="@+id/item_menu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_foto_makanan"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/menu1"
+            android:contentDescription="@string/menu_image"/>
+
+        <TextView
+            android:id="@+id/tv_nama_makanan"
+            android:textColor="#2d2d2d"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/nama_menu_makanan"/>
+
+        <TextView
+            android:id="@+id/tv_harga_makanan"
+            android:textColor="#2d2d2d"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:text="@string/harga_makanan"/>
+
+        <TextView
+            android:id="@+id/tv_satuan_makanan"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2d2d2d"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/satuan_makanan"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
